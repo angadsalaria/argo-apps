@@ -17,10 +17,10 @@ spec:
       - name: server
         image: angadsalaria/auth0-orgs:latest
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         env:
         - name: PORT
-          value: "8080"
+          value: "80"
         resources:
           requests:
             cpu: 100m
@@ -40,5 +40,5 @@ spec:
   ports:
   - name: http
     port: 80
-    targetPort: 8080
+    targetPort: 80
 ---
