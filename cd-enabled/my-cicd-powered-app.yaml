@@ -15,7 +15,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: my-container-registry/myap:v0.2.4
+        image: angadsalaria/auth0-orgs:latest
         ports:
         - containerPort: 8080
         env:
